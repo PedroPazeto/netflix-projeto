@@ -1,0 +1,163 @@
+* {
+    font-family: Helvetica, Arial, sans-serif;
+    padding: 0px;;
+    background-color: black;
+}
+.telainicial {
+    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/5bf11340-e4c1-4d65-89c1-dce33094a799/e15d53b1-8f7c-4c49-ae2b-cdb96df4d94f/BR-pt-20211020-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+}
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -20px;
+}
+.menu {
+    margin-right: 100px;
+}
+
+.netflix-logo {
+    fill: #E50914;
+    width: 112px;
+    height: 30px;
+    padding: 40px;
+}
+select {
+    width: 110px;
+    height: 30px;
+    text-indent: 0px;
+    font-size: 16px;
+    background-color: rgba(0, 0, 0, 4);
+    color: white;
+    border-radius: 2px;
+}
+button.to-enter {
+    font-size: 16px;
+    background-color: red;
+    border-radius: 4px;
+    padding: 5px;
+    border-color: red red #8c8c8c;
+    color: white;
+}
+h1.fist-title {
+    color: white;
+    font-size: 3pc;
+    text-align: center;
+    width: 650px;
+    margin-left: 350px;
+    margin-top: 130px;
+}
+h2.sub-title {
+    color: white;
+    text-align: center;
+    margin-top: -15px;
+    font-size: 1.625rem;
+    font-weight: 400
+}
+h3.third-title {
+    color: white;
+    text-align: center;
+    margin-top: 30px;
+    font-weight: 400;
+}
+input {
+    height: 64px;
+    width: 450px;
+    background-color: white;
+    margin-left: 360px;
+    font-size: 16px;
+    border-color: white;
+    padding-left: 8px;
+    border: none;
+}
+button.lets-go {
+    height: 64px;
+    background-color: red;
+    color: white;
+    border-radius: 0px;
+    width: 150px;
+    font-size: 20px;
+    border: none;
+}
+.footer {
+    background-color: #222222;
+    width: 1330px;
+    height: 10px;
+    margin-top: 165px;
+}
+h2.aproveite-na-tv {
+    color: white;
+    width: 500px;
+    font-size: 3pc;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+p.apresentacao-netflix {
+    color: white;
+    width: 500px;
+    font-size: 25px;
+    font-weight: 400;
+    margin-left: 100px;
+}
+.img-tv {
+    margin-left: 700px;
+    margin-top: -230px;
+}
+.footer-geral {
+    background-color: #222222;
+    width: 1330px;
+    height: 10px;
+    margin-top: 70px;
+}
+.img-stranger {
+    margin-left: 100px;
+    margin-top: 80px;
+}
+h2.baixe-series {
+    color: white;
+    font-size: 3pc;
+    width: 500px;
+    margin-left: 600px;
+    margin-top: -230px;
+}
+p.salve-seus-titulos {
+    color: white;
+    font-size: 25px;
+    width: 500px;
+    margin-left: 600px;
+}
+h2.assista-quando-quiser {
+    color: white;
+    width: 500px;
+    font-size: 3pc;
+    margin-top: 100px;
+    margin-left: 100px;
+}
+p.no-celular {
+    color: white;
+    width: 500px;
+    font-size: 25px;
+    font-weight: 400;
+    margin-left: 100px;
+}
+.img-quarta-parte {
+    margin-left: 700px;
+    margin-top: -270px;
+}
+.img-criancas {
+    margin-left: 100px;
+    margin-top: 20px;
+}
+h2.crie-perfis {
+    color: white;
+    font-size: 3pc;
+    width: 500px;
+    margin-left: 600px;
+    margin-top: -290px;
+}
+p.deixe-as-criacas {
+    color: white;
+    font-size: 25px;
+    width: 500px;
+    margin-left: 600px;
+}
