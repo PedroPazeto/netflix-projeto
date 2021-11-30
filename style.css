@@ -1,10 +1,18 @@
 * {
     font-family: Helvetica, Arial, sans-serif;
-    padding: 0px;;
+} 
+
+body {
     background-color: black;
 }
-.telainicial {
-    background-image: url(https://assets.nflxext.com/ffe/siteui/vlv3/5bf11340-e4c1-4d65-89c1-dce33094a799/e15d53b1-8f7c-4c49-ae2b-cdb96df4d94f/BR-pt-20211020-popsignuptwoweeks-perspective_alpha_website_medium.jpg);
+
+main {
+    max-width: 1300px;
+    min-width: 150px;
+}
+main input {
+    max-width: auto;
+    min-width: auto;
 }
 header {
     display: flex;
@@ -12,6 +20,7 @@ header {
     align-items: center;
     margin-top: -20px;
 }
+
 .menu {
     margin-right: 100px;
 }
@@ -22,6 +31,7 @@ header {
     height: 30px;
     padding: 40px;
 }
+
 select {
     width: 110px;
     height: 30px;
@@ -31,6 +41,7 @@ select {
     color: white;
     border-radius: 2px;
 }
+
 button.to-enter {
     font-size: 16px;
     background-color: red;
@@ -39,52 +50,64 @@ button.to-enter {
     border-color: red red #8c8c8c;
     color: white;
 }
-h1.fist-title {
-    color: white;
-    font-size: 3pc;
-    text-align: center;
-    width: 650px;
-    margin-left: 350px;
-    margin-top: 130px;
+
+
+.hero {
+    margin-top: 8rem;
 }
-h2.sub-title {
+
+.hero h1 {
+    color: white;
+    font-size: 3em;
+    text-align: center;
+    max-width: 640px;
+    margin: 0 auto;
+}
+
+.hero h2 {
     color: white;
     text-align: center;
-    margin-top: -15px;
     font-size: 1.625rem;
     font-weight: 400
 }
-h3.third-title {
+
+.hero h3 {
     color: white;
     text-align: center;
     margin-top: 30px;
     font-weight: 400;
 }
+
 input {
     height: 64px;
     width: 450px;
     background-color: white;
     margin-left: 360px;
     font-size: 16px;
-    border-color: white;
     padding-left: 8px;
     border: none;
 }
+
 button.lets-go {
-    height: 64px;
+    height: 67px;
     background-color: red;
     color: white;
     border-radius: 0px;
     width: 150px;
     font-size: 20px;
     border: none;
+    position: relative;
+    top: -67px;
+    margin-left: 820px;
 }
+
 .footer {
     background-color: #222222;
     width: 1330px;
     height: 10px;
     margin-top: 165px;
 }
+
 h2.aproveite-na-tv {
     color: white;
     width: 500px;
@@ -92,6 +115,7 @@ h2.aproveite-na-tv {
     margin-top: 100px;
     margin-left: 100px;
 }
+
 p.apresentacao-netflix {
     color: white;
     width: 500px;
@@ -99,20 +123,31 @@ p.apresentacao-netflix {
     font-weight: 400;
     margin-left: 100px;
 }
+
 .img-tv {
     margin-left: 700px;
     margin-top: -230px;
 }
+
 .footer-geral {
     background-color: #222222;
     width: 1330px;
     height: 10px;
     margin-top: 70px;
 }
+
+.footer-stranger {
+    background-color: #222222;
+    width: 1330px;
+    height: 10px;
+    margin-top: 70px;
+}
+
 .img-stranger {
     margin-left: 100px;
     margin-top: 80px;
 }
+
 h2.baixe-series {
     color: white;
     font-size: 3pc;
@@ -120,12 +155,14 @@ h2.baixe-series {
     margin-left: 600px;
     margin-top: -230px;
 }
+
 p.salve-seus-titulos {
     color: white;
     font-size: 25px;
     width: 500px;
     margin-left: 600px;
 }
+
 h2.assista-quando-quiser {
     color: white;
     width: 500px;
@@ -133,6 +170,7 @@ h2.assista-quando-quiser {
     margin-top: 100px;
     margin-left: 100px;
 }
+
 p.no-celular {
     color: white;
     width: 500px;
@@ -140,14 +178,17 @@ p.no-celular {
     font-weight: 400;
     margin-left: 100px;
 }
+
 .img-quarta-parte {
     margin-left: 700px;
     margin-top: -270px;
 }
+
 .img-criancas {
     margin-left: 100px;
     margin-top: 20px;
 }
+
 h2.crie-perfis {
     color: white;
     font-size: 3pc;
@@ -155,9 +196,183 @@ h2.crie-perfis {
     margin-left: 600px;
     margin-top: -290px;
 }
+
 p.deixe-as-criacas {
     color: white;
     font-size: 25px;
     width: 500px;
     margin-left: 600px;
 }
+
+@media only screen and (max-width: 550px) {
+    * {
+        margin: 0%;
+        
+    }
+
+    .logo {
+        width: 105px;
+        margin-left: -8px;
+        margin-top: 15px;
+    }
+
+    select {
+        font-size: 12px;
+        width: 86px;
+        height: 20px;
+        margin-top: 15px;
+        border-radius: none;
+    }
+
+    button.to-enter {
+        font-size: 12px;
+        width: 40px;
+        height: 20px;
+        margin-top: 10px;
+        margin-left: 6px;
+        border: none;
+    }
+
+    .hero h1 {
+        font-size: 22px;
+        margin-top: -70px;
+        width: 300px;
+        margin-left: 10px;
+    }
+
+    .hero h2 {
+        font-size: 14px;
+        margin-right: 80px;
+    }
+
+    .hero h3 {
+        font-size: 14px;
+        margin-left: 45px;
+        width: 225px;
+        margin-top: -2px;
+    }
+
+    input {
+        width: 290px;
+        height: 38px;
+        margin-left: 8px;
+        font-size: 12px;
+        margin-top: 20px;
+    }
+
+    button.lets-go {
+        width: 100px;
+        height: 35px;
+        font-size: 15px;
+        position: relative;
+        top: 8px;
+        margin-left: 110px;
+    } 
+
+    .footer {
+        margin-top: 70px;
+        width: 315px;
+        height: 8px;
+    }
+
+    h2.aproveite-na-tv {
+        font-size: 22px;
+        margin-top: 50px;
+        margin-left: 70px;
+    }
+    p.apresentacao-netflix {
+        font-size: 14px;
+        width: 300px;
+        text-align: center;
+        margin-left: 2px;
+    }
+
+    img.img-tv {
+        width: 300px;
+        margin-top: 15px;
+        margin-left: 8px;
+    }
+
+    footer.footer-geral {
+        margin-top: 70px;
+        width: 315px;
+        height: 8px;
+    }
+
+    img.img-stranger {
+        width: 200px;
+        margin-left: 65px;
+        bottom: 500px;
+        position: relative;
+        top: 50px;
+    }
+
+    h2.baixe-series {
+        width: 300px;
+        text-align: center;
+        font-size: 22px;
+        margin-left: 10px;
+        margin-top: -250px;
+    }
+
+    p.salve-seus-titulos {
+        font-size: 14px;
+        width: 270px;
+        text-align: center;
+        margin-left: 25px;
+    }
+
+    .footer-stranger {
+        margin-top: 250px;
+        width: 315px;
+        height: 8px;
+    }
+
+    h2.assista-quando-quiser {
+        font-size: 22px;
+        margin-top: 25px;
+        margin-left: 35px;
+    }
+
+    p.no-celular {
+        font-size: 14px;
+        width: 270px;
+        text-align: center;
+        margin-left: 20px;
+    }
+
+    img.img-quarta-parte {
+        width: 300px;
+        margin-top: 15px;
+        margin-left: 20px;
+    }
+
+    .img-criancas {
+        width: 200px;
+        margin-left: 65px;
+        bottom: 500px;
+        position: relative;
+        top: 100px;
+    }
+
+    h2.crie-perfis {
+        width: 300px;
+        text-align: center;
+        font-size: 22px;
+        margin-left: 10px;
+        margin-top: -160px;
+    }
+
+    p.deixe-as-criacas {
+        font-size: 14px;
+        width: 300px;
+        text-align: center;
+        margin-left: 10px;
+    }
+
+    footer.footer-final {
+        margin-top: 250px;
+        width: 315px;
+        height: 8px;
+    }
+  }
